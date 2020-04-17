@@ -74,8 +74,8 @@ Pod::Spec.new do |spec|
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
 
-spec.source = {:git=>"git@github.com:skeyboy/EmbededFramework.git"}
-  spec.source_files  = "EmbededFramework.framework/Headers/*.{h}"
+spec.source = {:git=>"git@github.com:skeyboy/FrameworkDemo.git"}
+  spec.source_files  = "FrameworkDemo/EmbededFramework/EmbededFramework.framework/Headers/*.{h}"
   spec.exclude_files = "EmbededFramework.framework/Headers"
 
    spec.public_header_files = "EmbededFramework.framework/Headers/EmbededFramework.h"
